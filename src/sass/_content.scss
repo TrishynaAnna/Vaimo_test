@@ -1,0 +1,58 @@
+.main-container{
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  &__text {
+    width: 439px;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.872727px;
+    color: #000;
+  }
+}
+.middle-autorization {
+  display: flex;
+  padding: 14px 0 32px 0;
+  justify-content: space-between;
+  &__email {
+    position: relative;
+    width: 334px;
+    height: 32px;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #4A4A4A;
+    outline: none;
+    border: 1px solid #E1E0E1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding-left: 11px;
+  }
+  &__button {
+    position: relative;
+    width: 94px;
+    height: 32px;
+    background: #000;
+    border-radius: 3px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 5.5px;
+  }
+}
+

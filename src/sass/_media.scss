@@ -1,0 +1,155 @@
+@media (max-width: 961px) {
+  .middle-box {
+    &__search {
+      width: 384px;
+    }
+    &__search input {
+      width: 354px;
+    }
+  }
+
+}
+
+@media (max-width: 731px) {
+  .header .container  {
+    display: none;
+
+  }
+  .headline{
+    visibility: hidden;
+  }
+  .middle-box {
+    &__search {
+      width: 284px;
+    }
+    &__search input {
+      width: 254px;
+    }
+    &__logo {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  }
+  .nav-menu .nav-menu__link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .footer-menu {
+    &__link {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    &__item {
+      font-size: 9px;
+      line-height: 13px;
+    }
+    .footer-social a {
+      padding: 3px;
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .nav-menu .nav-menu__link {
+    font-size: 9px;
+    line-height: 15px;
+  }
+  .middle-box {
+    &__search {
+      width: 234px;
+    }
+    &__search input {
+      width: 204px;
+    }
+  }
+}
+
+@media (max-width: 585px) {
+  .middle-box {
+    &__search {
+      display: none;
+    }
+    &__search input {
+      display: none;
+    }
+    &__search input::placeholder {
+      display: none;
+    }
+    &__search img {
+      display: none;
+    }
+  }
+  .nav-menu {
+    display: none;
+  }
+  .top-line {
+    display: none;
+  }
+  .header-btn {
+    display: flex;
+  }
+  .middle-box {
+    &__authorization-sign {
+      display: none;
+    }
+    &__authorization-register {
+      display: none;
+    }
+    &__logo {
+      position: absolute;
+      left: 180px;
+      top: 10px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .middle-box {
+    &__logo {
+      position: absolute;
+      left: 140px;
+      top: 10px;
+    }
+  }
+  .middle-autorizationv {
+
+    &__email {
+      width: 224px;
+    }
+    &__button {
+
+      width: 64px;
+      font-size: 8px;
+      line-height: 16px;
+      padding-top: 9px;
+      right: 5px;
+    }
+  }
+  .middle-section__text {
+    width: 300px;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footer-menu__responsive {
+    display: inline;
+  }
+  .footer-copy {
+    padding: 15px 0 10px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-menu__responsive {
+    .submenu-link__responsive {
+      left: 20%;
+    }
+  }
+  .middle-box {
+    &__logo {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
+  }
+}

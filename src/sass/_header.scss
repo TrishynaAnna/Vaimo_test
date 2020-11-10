@@ -1,0 +1,199 @@
+.header {
+
+
+    .headline {
+      position: relative;
+      top: 100px;
+      font-family: 'Poppins-Bold', sans-serif;
+      font-weight: 700;
+      color: #fff;
+      font-size: 60px;
+      line-height: 90px;
+      height: 90px;
+      text-align: center;
+    }
+  }
+.middle-container {
+  height: 756px;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-line {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  height: 24px;
+  &__title {
+    padding-left: 45%;
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    position: relative;
+  }
+  &__stores {
+    padding-right: 24px;
+    flex: 1;
+    text-align: right;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.0833333px;
+    cursor: pointer;
+    position: relative;
+    img {
+      position: relative;
+      top: 2px;
+      right: 5px;
+    }
+  }
+}
+
+ .response-menu {
+     background-color: #fff;
+     position: absolute;
+     top: 0;
+     left: -100%;
+     width: 100%;
+     transition: all .5s;
+ }
+.header-btn {
+  display: none;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  top: 18px;
+  left: 24px;
+  outline: none;
+  position: absolute;
+  &__inner {
+    width: 25px;
+  }
+  &__line {
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  &__search {
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 40px;
+  }
+}
+
+.response-menu.active {
+  left:0;
+}
+
+.middle-box {
+
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.216) 14.31%, rgba(27, 27, 27, 0.11260224) 58.6%, rgba(0, 0, 0, 0.000024) 100%);
+  &__logo {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 38px;
+    line-height: 57px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    padding-left: 24px;
+    cursor: pointer;
+
+    &:hover {
+      transition: all 0.5s ease;
+      //transform: scale(1.2);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+  }
+  &__search {
+    position: relative;
+    width: 584px;
+    height: 48px;
+    padding: 15px;
+    background-color: rgba(247,247,247, 0.24);
+    border: none;
+    border-radius: 3px;
+  }
+  &__search input {
+    color: #fff;
+    background-color: transparent;
+    padding-right: 30px;
+    width: 554px;
+    outline: none;
+    border: none;
+  }
+  &__search input::placeholder {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+  }
+  &__search img {
+    z-index: 10;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+  &__authorization {
+    display: flex;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-right: 40px;
+    cursor: pointer;
+    &:hover{
+        transition: all 0.5s ease;
+        transform: scale(1.2);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    &-sign::after {
+      content: " |";
+      padding: 0 5px 0 3px;
+      color: #fff;
+    }
+    &-basket {
+      position: relative;
+      bottom: 7px;
+      right: -15px;
+    }
+  }
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  &__link {
+    padding: 15px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    &:hover{
+      transition: all 0.5s ease;
+      transform: scale(1.2);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+
