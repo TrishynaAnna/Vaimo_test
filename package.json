@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=1234 gulp start --development ",
-//    "build": "gulp build --production",
-//    "predeploy": "npm run build",
-//    "deploy": "gh-pages -d build"
+    "build": "gulp build --production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-//  "homepage": "https://trishynaanna.github.io/vaimo_test/",
+  "homepage": "https://trishynaanna.github.io/vaimo_test/",
   "repository": {
     "type": "git",
     "url": "git+ https://trishynaanna.github.io/vaimo_test/"
