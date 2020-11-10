@@ -11,12 +11,9 @@
 }
 
 @media (max-width: 731px) {
-  .header .container  {
+  .header .container .headline {
     display: none;
 
-  }
-  .headline{
-    visibility: hidden;
   }
   .middle-box {
     &__search {
@@ -112,7 +109,6 @@
     }
   }
   .middle-autorizationv {
-
     &__email {
       width: 224px;
     }

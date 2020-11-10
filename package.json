@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=1234 gulp start --development ",
-    "build": "gulp build --production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+//    "build": "gulp build --production",
+//    "predeploy": "npm run build",
+//    "deploy": "gh-pages -d build"
   },
-  "homepage": " https://trishynaanna.github.io/vaimo_test/",
+//  "homepage": "https://trishynaanna.github.io/vaimo_test/",
   "repository": {
     "type": "git",
     "url": "git+ https://trishynaanna.github.io/vaimo_test/"
@@ -32,6 +32,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-cache-bust": "^1.4.1",
     "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
