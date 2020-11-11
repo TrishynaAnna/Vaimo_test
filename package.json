@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://trishynaanna.github.io/vaimo_test/",
+  "homepage": "https://trishynaanna.github.io/Vaimo_test/",
   "repository": {
     "type": "git",
-    "url": "git+ https://trishynaanna.github.io/vaimo_test/"
+    "url": "git+ https://trishynaanna.github.io/Vaimo_test/"
   },
   "author": "Trishyna Anna",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trishynaanna/vaimo_test/issues"
+    "url": "https://github.com/trishynaanna/Vaimo_test/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
